@@ -16,9 +16,9 @@ void setup () {
   bg2Image = loadImage("img/bg2.png");
   x = floor(random(6,207));
   x_treasure = floor(random(150,580));
-  y_treasure = floor(random(20,450));
+  y_treasure = floor(random(30,450));
   x_enemy =0;
-  y_enemy = floor(random(15,440));
+  y_enemy = floor(random(30,440));
   rectMode(CORNERS);
   x_bg1 = 0;
 }
