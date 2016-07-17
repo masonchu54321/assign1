@@ -18,17 +18,17 @@ void setup () {
   
   x = floor(random(6,207));
   x_treasure = floor(random(150,580));
-  y_treasure = floor(random(30,450));
+  y_treasure = floor(random(35,435));
   x_enemy =0;
-  y_enemy = floor(random(30,440));
+  y_enemy = floor(random(35,417));
   rectMode(CORNERS);
   x_bg1 = 0;
   
 }
 
 void draw() {
-  image(bg1Image,x_bg1%1280 -640,0);
-  image(bg2Image,(x_bg1+640)%1280 -640,0);
+  image(bg1Image,x_bg1 % 1280 -640,0);
+  image(bg2Image,(x_bg1+640) % 1280 -640,0);
   x_bg1 += 1;
   rect(5,3,x,25);
   fill(255,0,0);
